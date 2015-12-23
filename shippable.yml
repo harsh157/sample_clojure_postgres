@@ -4,9 +4,9 @@ language: clojure
 lein:
   - lein2
 
-# Services used by app
-services:
-  - postgres
+# Addons used by app
+addons:
+  postgresql: "9.4"
 
 # Create directories for test and coverage reports; Create 'test' Postgres database
 before_script:
