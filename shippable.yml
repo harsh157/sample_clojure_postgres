@@ -7,7 +7,7 @@ lein:
 
 # Services used by app
 services:
-  - postgresql
+  - postgres
 
 # Create directories for test and coverage reports; Create 'test' Postgres database
 before_script:
